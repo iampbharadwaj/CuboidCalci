@@ -99,7 +99,7 @@ Content-Type: application/json
 The below mentioned REST API  is to fetch the given number of entries stored as result  based on previous entires stored in the database for the calculation performed on the Cuboid edges.
 
 #### URL:
-- http://85.215.232.182/cuboid/result/<number>
+- http://85.215.232.182/cuboid/result/< number >
 
 #### Description:
 REST API to query the number of entries of the results  stored  in the database for the calculation performed on cuboid edges.
