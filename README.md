@@ -51,7 +51,8 @@ REST API for query to perform calculation on cuboid edges and write it to mysql 
 
 Curl Example:
 ```
-curl -d  { “cuboid_edges”: [33,44,55] } -i -X POST http://85.215.232.182/cuboid/calculate
+$curl -d  { “cuboid_edges”: [33,44,55] } -i -X POST http://85.215.232.182/cuboid/calculate
+
 HTTP/1.1 200 OK
 Date: Tue, 16 Mar 2021 13:45:09 GMT
 Server: Apache/2.4.29 (Ubuntu)
@@ -82,7 +83,8 @@ REST API for query the results of calculation performed on cuboid edges and get 
    
 Curl Example:
 ``` 
-curl -i -X GET http://85.215.232.182/cuboid/result
+$curl -i -X GET http://85.215.232.182/cuboid/result
+
 HTTP/1.1 200 OK
 Date: Tue, 16 Mar 2021 13:45:10 GMT
 Server: Apache/2.4.29 (Ubuntu)
@@ -104,7 +106,8 @@ REST API to query the number of entries of the results  stored  in the database 
 
 Curl Example:
 ```
-curl -i -X GET http://85.215.232.182/cuboid/result/3
+$curl -i -X GET http://85.215.232.182/cuboid/result/3
+
 HTTP/1.1 200 OK
 Date: Tue, 16 Mar 2021 14:04:46 GMT
 Server: Apache/2.4.29 (Ubuntu)
